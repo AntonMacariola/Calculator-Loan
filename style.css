@@ -1,0 +1,334 @@
+body{
+    background-image:url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;;
+   
+}
+nav{
+    width: 100%;
+    height: 85px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: sticky;
+    background: #fff; 
+    
+}nav .logo img{
+    float: left;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+nav .logo p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 1000;
+    float: left;
+    color: #2F77FF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 0;
+}
+nav ul{
+    float: right;
+    margin-right:300px;
+    margin-top: 0;
+    
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: #2F77FF;
+    text-decoration: none;
+}
+.container1{
+    background-image:url("images/header-background.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: left;
+ 
+}
+
+.container1 .container1-content{
+    padding: 300px 300px;
+}
+.container1 h1{
+    font-family: monospace;
+    text-transform: uppercase;
+    margin:0px;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+.container2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #181717;
+    padding: 50px;
+}
+.container2 h2{
+
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #2F77FF;
+}
+.container2 p{
+    font-size:  22px;;
+}
+.box1{
+    font-family: "Roboto", sans-serif;
+    width: 950px;
+    margin: 25px auto;
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 0 12px 50px -11px rgb(0, 0 , 0 ,0.2);
+    color: #2F77FF;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-bottom: 15px;;
+}
+.box1-top{
+    background: #2F77FF;
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.box1 .box1-mid {
+    margin: 10px 25px;
+}
+.box1 .box1-mid h2{
+    margin-bottom: 0px;
+}
+.box1 .box1-mid ul{
+    margin-top: 0px;
+    list-style-type: none;
+}
+.box1 .box1-mid li{
+    font-size: 15px;
+    margin: 5px 5px;
+  
+}
+.box1 .box1-bottom {
+    margin: 10px 25px;
+}
+.box1 .box1-bottom h2 {
+    margin-bottom: 0px;
+}
+.box1 .box1-bottom ul{
+    margin-top: 0px;
+    list-style-type: none;
+}
+.box1 .box1-bottom li{
+    font-size: 15px;
+    margin: 5px 5px;
+  
+}
+.box2{
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+    margin: 25px auto;
+    background: #fff;
+    box-shadow: 0 12px 50px -11px rgb(0, 0 , 0 ,0.2);
+    color: #2F77FF;
+    overflow: hidden;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.box2-text{
+    padding-bottom: 150px;
+}
+.box2-top{
+    background: #2F77FF;
+    color: #fff;
+    padding:  32px 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;;
+}
+
+.box2 .box2-text h2{
+    margin: 10px 25px;
+    font-weight: 700;
+}
+.box2 .box2-text .list--check li p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0px;
+    
+}
+.box2 .box2-text .list--check li span{
+    font-size: 15px;
+    color: #7F7F7F;
+}
+
+.loan-calculator,
+.loan-calculator *{
+    box-sizing: border-box;
+}
+
+.loan-calculator {
+    font-family : "Roboto", sans-serif;
+    width: 600px;
+    margin: 25px auto;
+   
+    background: #ffff;
+    box-shadow: 0 12px 50px -11px rgb(0, 0 , 0 ,0.2);
+    border-radius: 10px;
+    color: #2F77FF;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.loan-calculator .top{
+    background: #2F77FF;
+    color: #02699C;
+    padding: 32px;
+
+
+}
+.loan-calculator .top h2 {
+    margin-top: 0;
+    color: #fff;
+
+}
+.loan-calculator .top p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.loan-calculator form {
+    display: flex;
+    gap: 8px;
+    justify-content : space-between;
+    color: #fff;
+}
+
+.loan-calculator .title{
+    margin-bottom:  16px;
+}
+
+.loan-calculator form input  {
+    font-size: 20px;
+    padding: 8px 24px;
+    width: 100%;
+}
+
+.loan-calculator .result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loan-calculator .result .left {
+    width: 100%;
+    padding: 8px 32px;
+}
+
+.loan-calculator .left h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.loan-calculator .result .value{
+    font-size: 30px;
+    font-weight: 900;
+    border-bottom: 1px solid rgb(20, 33, 61, 0.2);
+}
+
+.loan-calculator .result .value::before {
+    content: "₱";
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 6px;
+    opacity: 0.4;
+}
+
+.loan-calculator .calculate-btn{
+    background: #2F77FF;
+    color: #fff;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 24px 0;
+
+}
+.wrapper{
+display:flexbox;
+}
+
+footer{
+    background-color: #2F77FF;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 0px;;
+    
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-icons a{
+    background-color: #fff;
+    color: #2F77FF;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 25px;
+}
+
+.footer-menu a{
+    color: #fff;
+    width: 100%;;
+    
+}
+
+.footer-copyright{
+    background-color: #2F77FF;
+    color: #fff;
+    padding-top: 15px;
+    
+  
+}
+@media(max-width : 650px){
+    .loan-calculator{
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .loan-calculator form{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .loan-calculator input{
+        margin-bottom: 0px;
+    }
+
+    .loan-calculator .result{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

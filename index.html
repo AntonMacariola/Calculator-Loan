@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="Italian Trulli">
+            <p>RCBC</p>
+        </div>
+        <ul>
+            <li><a href="#"> HOME</a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="#"> Contact Us</a>
+            </li>
+
+        </ul>
+    </nav>
+ <div class="container1">
+    <div class="container1-content">
+        <div class="title1"><h1>Quick & easy</h1></div>
+        <div class="title2"><h1>Auto Loan Application with RCBC</h1></div>
+    </div>
+</div>
+<div class="container2">
+    <h2>Own your ride with RCBC Auto Loans</h2>
+    <p>Get an auto loan for a car or motorcyle with affordable monthly installments, low downpayment and flexible terms up to 5 years.</p>
+</div>
+    <div class="box1">
+        <div class="box1-top">
+            <h1>Choose which Auto Loan best fits your needs:</h1>
+        </div>
+        <div class="box1-mid">
+            <h2>Choose your loan type:</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Low monthly amortization?</label><br>
+                </li>
+                <li>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Flexible and Worry free insurance coverage for the entire loan term?</label><br>
+                </li>
+                <li>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Free insurance coverage for the first year of your loan term, free chattel mortgage fees, and a low downpayment?</label><br>
+                </li>
+            </ul>
+        </div>
+        <div class="box1-bottom">
+            <h2>Choose your vehicle type:</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Brand New</label><br>
+                </li>
+                <li>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Pre-owned</label><br>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="box2">
+        <div class="box2-top">
+            <h1>What you're in for:</h1>
+        </div>
+        <div class="box2-text">
+            <h2>Regular Auto Loan</h2>
+            <ul class="list--check">
+                <li>
+                    <p>Minimum Loan Amount:</p>
+                    <span>Php 300,000</span>
+                </li>
+                <li>
+                    <p>Downpayment:</p>
+                    <span>20%</span>
+                </li>
+                <li>
+                    <p>Payment Terms:</p>
+                    <span>12 to 60 months</span>
+                </li>
+            </ul>
+        </div>   
+    </div>
+    <div class="loan-calculator">
+       <div class="top">
+            <h2> Loan Calculator</h2>
+            <form action="">
+                <div class="group">
+                    <div class="title">Selling Price: </div>
+                    <input type="text" value ="300000" class ="selling-amount" />
+                </div>
+                <div class="group">
+                    <div class="title">Downpayment : </div>
+                    <input type="text" value ="20" class ="loan-downpayment"  min="20" max="90"/>
+                </div>
+                <div class="group">
+                    <div class="title">Loan period: </div>
+                    <input type="text" value ="12" class ="loan-period" min="12" max="0" />
+                </div>
+            </form>
+            <p>*Interest rate of 5.57%</p>
+       </div>
+       <div class="result">
+            <div class="left">
+                <div class="loan-totalAmount">
+                    <h3>Total Loan Amount: </h3>
+                    <div class="value">12345</div>
+                </div>
+                <div class="total-downpayment">
+                    <h3>Downpayment:</h3>
+                    <div class="value">123456</div>
+                </div>
+                <div class="monthly-payment">
+                    <h3>Montly Payment: </h3>
+                    <div class="value">1234567</div>
+                </div>
+
+                <button class="calculate-btn">CALCULATE</button>
+            </div>
+           
+       </div>
+    </div>
+    </div>
+    <footer>
+        <ul class="footer-icons">
+            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="mail-outline"></ion-icon></a></li>
+        </ul>
+        <ul class="footer-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+
+            <div class="footer-copyright">
+                <p>This is for educational purposes. All Rights Reserved 2022</p>
+            </div>
+
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
